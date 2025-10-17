@@ -1,0 +1,61 @@
+# ==========================================
+# ⚙️ KONFIGURASI DASAR BOT DISCORD
+# ==========================================
+
+# Token bot Discord (dari https://discord.com/developers/applications)
+DISCORD_TOKEN=YOUR_DISCORD_BOT_TOKEN_HERE
+
+# ID Aplikasi / Client ID
+DISCORD_CLIENT_ID=YOUR_DISCORD_CLIENT_ID_HERE
+
+# ID Server (Guild) tempat bot di-deploy (opsional jika global)
+DISCORD_GUILD_ID=YOUR_GUILD_ID_HERE
+
+# ==========================================
+# 🌐 API & INTEGRASI TAMBAHAN
+# ==========================================
+
+# API untuk data ekonomi (contoh: MQL5 / Investing / ForexFactory)
+ECONOMIC_CALENDAR_API=https://your-api-url.com/economic-calendar
+
+# API untuk analisa Forex
+FOREX_API=https://api.forexdata.io
+FOREX_API_KEY=YOUR_FOREX_API_KEY_HERE
+
+# API untuk data kripto (misal: CoinGecko / CoinMarketCap)
+CRYPTO_API=https://api.coingecko.com/api/v3
+CRYPTO_API_KEY=YOUR_CRYPTO_API_KEY_HERE
+
+# API untuk berita pasar (misal: NewsAPI / GNews)
+NEWS_API=https://newsapi.org/v2/everything
+NEWS_API_KEY=YOUR_NEWS_API_KEY_HERE
+
+# ==========================================
+# 💬 KONFIGURASI BOT
+# ==========================================
+
+# Nama bot (opsional)
+BOT_NAME=Cyber Technology Project Bot
+
+# Prefix (jika kamu juga ingin menambahkan command berbasis prefix)
+BOT_PREFIX=!
+
+# Warna embed default (dalam hex tanpa #)
+EMBED_COLOR=00FFFF
+
+# Nama developer atau tim
+DEVELOPER_NAME=Cyber Technology Project
+
+# Link dukungan atau donasi
+DONATE_LINK=https://saweria.co/yourusername
+DONATE_CRYPTO=TP8f...xyz123
+
+# ==========================================
+# 🧠 MODE & DEBUG
+# ==========================================
+
+# Mode bot: production | development
+BOT_MODE=development
+
+# Menampilkan log detail di console
+DEBUG=true

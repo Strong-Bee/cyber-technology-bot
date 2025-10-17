@@ -1,0 +1,39 @@
+{
+  "name": "cyber-technology-bot",
+  "version": "1.0.0",
+  "description": "Bot Discord profesional untuk analisis market Forex & Crypto, kalender ekonomi, dan berita global.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js",
+    "lint": "eslint . --ext .js",
+    "test": "echo \"No test configured\" && exit 0"
+  },
+  "keywords": [
+    "discord-bot",
+    "forex",
+    "crypto",
+    "market-analysis",
+    "calendar",
+    "discord.js"
+  ],
+  "author": "Lintang Syahdewo <cybertech.project>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "hhttps://github.com/Strong-Bee/cyber-technology-bot.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@dotenvx/dotenvx": "^1.51.0",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^9.10.0"
+  }
+}
